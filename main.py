@@ -19,8 +19,7 @@ def setup_logging():
     logging.basicConfig(level=logging.DEBUG,
                         handlers=[
                             logging.FileHandler(log_file, encoding='utf-8', mode='w'),
-                            logging.StreamHandler()
-                        ])
+                            logging.StreamHandler()])
     for handler in logging.getLogger().handlers:
         handler.setFormatter(formatter)
 

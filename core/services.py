@@ -15,8 +15,7 @@ class AutoReplyService:
             for question in questions:
                 answer = await self.llm_client.generate_answer(
                     question=question.text,
-                    product_name=question.productDetails.productName
-                )
+                    product_name=question.productDetails.productName)
                 generated_answers[question.id] = (question.text, answer)
             await self.reply_sender.send_reply(generated_answers)
         except Exception as e:
