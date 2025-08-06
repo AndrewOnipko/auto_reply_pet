@@ -1,0 +1,36 @@
+[
+    {
+        "id": "abc123",
+        "text": "Можно ли стирать эту футболку?",
+        "createdDate": "2024-01-01T12:00:00Z",
+        "state": "suppliersPortalSynch",
+        "answer": null,
+        "productDetails": {
+            "imtId": 111,
+            "nmId": 222,
+            "productName": "Футболка",
+            "supplierArticle": "A123",
+            "supplierName": "ООО Трикотаж",
+            "brandName": "ТвояОдежда"
+        },
+        "wasViewed": false,
+        "isWarned": false
+    },
+    {
+        "id": "def456",
+        "text": "Из чего сделан этот термос?",
+        "createdDate": "2024-01-02T12:00:00Z",
+        "state": "suppliersPortalSynch",
+        "answer": null,
+        "productDetails": {
+            "imtId": 333,
+            "nmId": 444,
+            "productName": "Термос Стальной",
+            "supplierArticle": "T456",
+            "supplierName": "ООО Термотехника",
+            "brandName": "Тепло"
+        },
+        "wasViewed": false,
+        "isWarned": false
+    }
+]
